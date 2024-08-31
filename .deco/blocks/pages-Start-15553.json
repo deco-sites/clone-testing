@@ -3,6 +3,9 @@
   "path": "/",
   "sections": [
     {
+      "__resolveType": "Header Airbnb"
+    },
+    {
       "__resolveType": "site/sections/Logo.tsx",
       "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/clone-testing/18ef384d-1154-44c4-b227-be75a7df9cd1/logo-airbnb.jpg",
       "alt": "Logo do AirBnb"

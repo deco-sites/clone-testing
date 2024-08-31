@@ -1,0 +1,42 @@
+{
+  "__resolveType": "site/sections/Header.tsx",
+  "menu": {
+    "hamburgerIcon": {
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/clone-testing/8b2df95e-8b12-4c1a-b95e-a4b403b12936/Hamburger_icon.svg.png",
+      "alt": "Menu"
+    },
+    "userIcon": {
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/clone-testing/7e158b3b-8dda-49db-9943-228786a6f0af/128-1280406_view-user-icon-png-user-circle-icon-png.png",
+      "alt": "Icone de Perfil"
+    },
+    "primaryLinks": [
+      {
+        "text": "Cadastre-se",
+        "url": "/",
+        "isBold": true
+      },
+      {
+        "text": "Entrar",
+        "url": "/",
+        "isBold": false
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "text": "Cartões de presente",
+        "url": "/",
+        "isBold": false
+      },
+      {
+        "text": "Anuncie seu espaço no Airbnb",
+        "url": "/",
+        "isBold": false
+      },
+      {
+        "text": "Central de ajuda",
+        "url": "/",
+        "isBold": false
+      }
+    ]
+  }
+}
