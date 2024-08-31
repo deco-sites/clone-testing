@@ -3,9 +3,12 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "site/sections/ItWorks.tsx",
-      "name": "<p>Hello World!</p>",
-      "count": 1
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Logo.tsx",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/clone-testing/18ef384d-1154-44c4-b227-be75a7df9cd1/logo-airbnb.jpg",
+        "alt": "Logo do AirBnb"
+      }
     },
     {
       "__resolveType": "Footer"
