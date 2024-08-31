@@ -29,11 +29,13 @@ interface Link {
 const MenuIsland = ({ hamburgerIcon, userIcon, primaryLinks, secondaryLinks }: Props) => {
     const isShow = useSignal(false);
 
+    const changeVisibleState = () => { isShow.value = !isShow.value; }
+
     return (
         <div>
             <div>
-                <Image src={hamburgerIcon.image} width={16} alt={hamburgerIcon.alt} onClick={() => isShow.value = !isShow.value} />
-                <Image src={userIcon.image} width={31} alt={userIcon.alt} onClick={() => isShow.value = !isShow.value} />
+                <Image src={hamburgerIcon.image} width={16} alt={hamburgerIcon.alt} onClick={() => changeVisibleState()} />
+                <Image src={userIcon.image} width={31} alt={userIcon.alt} onClick={() => changeVisibleState()} />
             </div>
             {
                 isShow.value && (
