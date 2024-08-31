@@ -1,0 +1,26 @@
+{
+  "__resolveType": "site/sections/HeaderIsland.tsx",
+  "menu": {
+    "primaryLinks": [
+      {
+        "text": "example1",
+        "url": "/",
+        "isBold": false
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "text": "example2",
+        "url": "/",
+        "isBold": false
+      }
+    ],
+    "userIcon": {
+      "alt": "exemple",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/clone-testing/a59c23ac-60e3-496c-8753-16d590ba14dc/7718888.png"
+    },
+    "hamburgerIcon": {
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/clone-testing/7cd25d8a-90e3-4494-806d-c619ced2c54a/3388823.png"
+    }
+  }
+}
