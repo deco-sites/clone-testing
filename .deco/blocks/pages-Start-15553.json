@@ -3,24 +3,38 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "site/sections/Logo.tsx",
-      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/clone-testing/18ef384d-1154-44c4-b227-be75a7df9cd1/logo-airbnb.jpg",
-      "alt": "Logo do AirBnb"
-    },
-    {
       "__resolveType": "Footer"
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Header Airbnb"
-      }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "HeaderIsland"
       }
+    },
+    {
+      "__resolveType": "site/sections/HeaderHTMX.tsx",
+      "isOpen": false,
+      "hamburgerIcon": {
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/clone-testing/520279e1-c567-47f1-b557-ec871855ed8a/github.png",
+        "alt": "a"
+      },
+      "userIcon": {
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/clone-testing/b1756b61-2650-4670-8a03-447bb469251f/link.png"
+      },
+      "primaryLinks": [
+        {
+          "text": "primeiro",
+          "url": "/",
+          "isBold": true
+        }
+      ],
+      "secondaryLinks": [
+        {
+          "text": "segundo",
+          "url": "segundo",
+          "isBold": false
+        }
+      ]
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

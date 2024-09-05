@@ -32,7 +32,8 @@ const MenuIsland = ({ hamburgerIcon, userIcon, primaryLinks, secondaryLinks }: P
     const changeVisibleState = () => { isShow.value = !isShow.value; }
 
     return (
-        <div>
+        <div class="mt-10 bg-[blue] text-white rounded-lg w-[200px] mx-auto p-3">
+            <h2 class="text-center">Island</h2>
             <div>
                 <Image src={hamburgerIcon.image} width={16} alt={hamburgerIcon.alt} onClick={() => changeVisibleState()} />
                 <Image src={userIcon.image} width={31} alt={userIcon.alt} onClick={() => changeVisibleState()} />
