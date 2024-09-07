@@ -5,25 +5,33 @@
 import * as $$$$$$$$$$$0 from "./apps/deco/blog.ts";
 import * as $$$$$$$$$$$1 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$2 from "./apps/site.ts";
-import * as $$$$$$0 from "./sections/Footer.tsx";
-import * as $$$$$$1 from "./sections/Header.tsx";
-import * as $$$$$$2 from "./sections/HeaderHTMX.tsx";
-import * as $$$$$$3 from "./sections/HeaderIsland.tsx";
-import * as $$$$$$4 from "./sections/ItWorks.tsx";
-import * as $$$$$$5 from "./sections/Logo.tsx";
-import * as $$$$$$6 from "./sections/TestingIA.tsx";
-import * as $$$$$$7 from "./sections/Theme/Theme.tsx";
+import * as $$$0 from "./loaders/categories/options.ts";
+import * as $$$$$$0 from "./sections/Accommodation.tsx";
+import * as $$$$$$1 from "./sections/Category.tsx";
+import * as $$$$$$2 from "./sections/Footer.tsx";
+import * as $$$$$$3 from "./sections/Header.tsx";
+import * as $$$$$$4 from "./sections/HeaderHTMX.tsx";
+import * as $$$$$$5 from "./sections/HeaderIsland.tsx";
+import * as $$$$$$6 from "./sections/ItWorks.tsx";
+import * as $$$$$$7 from "./sections/Logo.tsx";
+import * as $$$$$$8 from "./sections/TestingIA.tsx";
+import * as $$$$$$9 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
+  "loaders": {
+    "site/loaders/categories/options.ts": $$$0,
+  },
   "sections": {
-    "site/sections/Footer.tsx": $$$$$$0,
-    "site/sections/Header.tsx": $$$$$$1,
-    "site/sections/HeaderHTMX.tsx": $$$$$$2,
-    "site/sections/HeaderIsland.tsx": $$$$$$3,
-    "site/sections/ItWorks.tsx": $$$$$$4,
-    "site/sections/Logo.tsx": $$$$$$5,
-    "site/sections/TestingIA.tsx": $$$$$$6,
-    "site/sections/Theme/Theme.tsx": $$$$$$7,
+    "site/sections/Accommodation.tsx": $$$$$$0,
+    "site/sections/Category.tsx": $$$$$$1,
+    "site/sections/Footer.tsx": $$$$$$2,
+    "site/sections/Header.tsx": $$$$$$3,
+    "site/sections/HeaderHTMX.tsx": $$$$$$4,
+    "site/sections/HeaderIsland.tsx": $$$$$$5,
+    "site/sections/ItWorks.tsx": $$$$$$6,
+    "site/sections/Logo.tsx": $$$$$$7,
+    "site/sections/TestingIA.tsx": $$$$$$8,
+    "site/sections/Theme/Theme.tsx": $$$$$$9,
   },
   "apps": {
     "site/apps/deco/blog.ts": $$$$$$$$$$$0,

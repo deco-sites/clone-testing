@@ -12,6 +12,12 @@
       }
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Categories"
+      }
+    },
+    {
       "__resolveType": "site/sections/HeaderHTMX.tsx",
       "isOpen": false,
       "hamburgerIcon": {
@@ -35,6 +41,13 @@
           "isBold": false
         }
       ]
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Accommodation.tsx",
+        "category": []
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

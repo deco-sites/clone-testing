@@ -1,0 +1,10 @@
+{
+  "__resolveType": "site/sections/Category.tsx",
+  "categories": [
+    {
+      "title": "examplo",
+      "slug": "example",
+      "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/clone-testing/8b2df95e-8b12-4c1a-b95e-a4b403b12936/Hamburger_icon.svg.png"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "__resolveType": "site/loaders/categories/options.ts",
+  "categories": [
+    {
+      "title": "Casas Redondas",
+      "slug": "casas-redondas",
+      "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/clone-testing/493f1175-34bc-48f1-840a-339c7e58555f/89faf9ae-bbbc-4bc4-aecd-cc15bf36cbca.png"
+    },
+    {
+      "title": "Barcos",
+      "slug": "barcos",
+      "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/clone-testing/a1a2438c-3343-4c43-9a28-cd88e254d9c2/687a8682-68b3-4f21-8d71-3c3aef6c1110.png"
+    }
+  ]
+}
