@@ -4,7 +4,7 @@ import Image from "apps/website/components/Image.tsx";
 // Structure
 
 // Data of Section (Props)
-interface Props {
+export interface Props {
     image: ImageWidget;
     alt?: string;
 }

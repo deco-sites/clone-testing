@@ -3,50 +3,114 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "Footer"
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "HeaderIsland"
+      "__resolveType": "site/sections/Header.tsx",
+      "logo": {
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/clone-testing/18ef384d-1154-44c4-b227-be75a7df9cd1/logo-airbnb.jpg",
+        "alt": "Logo do AirBnb"
+      },
+      "menu": {
+        "hamburgerIcon": {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/clone-testing/8b2df95e-8b12-4c1a-b95e-a4b403b12936/Hamburger_icon.svg.png",
+          "alt": "Menu"
+        },
+        "primaryLinks": [
+          {
+            "text": "Cadastre-se",
+            "isBold": true,
+            "url": "#"
+          },
+          {
+            "text": "Entrar",
+            "url": "#",
+            "isBold": false
+          }
+        ],
+        "secondaryLinks": [
+          {
+            "text": "Cartões de Presente",
+            "isBold": false,
+            "url": "#"
+          }
+        ],
+        "userIcon": {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/clone-testing/7e158b3b-8dda-49db-9943-228786a6f0af/128-1280406_view-user-icon-png-user-circle-icon-png.png",
+          "alt": "Foto de Usuário"
+        }
+      },
+      "centeredLinks": {
+        "links": [
+          {
+            "title": "Acomodações",
+            "id": "accommodation"
+          },
+          {
+            "title": "Experiências",
+            "id": "experiences"
+          }
+        ]
+      },
+      "rightButtons": {
+        "links": [
+          {
+            "title": "Anuncie seu espaço no Airbnb",
+            "url": "#"
+          },
+          {
+            "url": "#",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/clone-testing/f1128072-b528-4380-af78-8e4bd71e537e/1383676.png"
+          }
+        ],
+        "menuHtmx": {
+          "hamburgerIcon": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/clone-testing/8b2df95e-8b12-4c1a-b95e-a4b403b12936/Hamburger_icon.svg.png"
+          },
+          "userIcon": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/clone-testing/7e158b3b-8dda-49db-9943-228786a6f0af/128-1280406_view-user-icon-png-user-circle-icon-png.png"
+          },
+          "primaryLinks": [
+            {
+              "text": "Cadastre-se",
+              "url": "#",
+              "isBold": true
+            },
+            {
+              "text": "Entrar",
+              "url": "#",
+              "isBold": false
+            }
+          ],
+          "secondaryLinks": [
+            {
+              "text": "Cartões de Presente",
+              "url": "#",
+              "isBold": false
+            }
+          ],
+          "isOpen": false
+        }
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "Categories"
-      }
-    },
-    {
-      "__resolveType": "site/sections/HeaderHTMX.tsx",
-      "isOpen": false,
-      "hamburgerIcon": {
-        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/clone-testing/520279e1-c567-47f1-b557-ec871855ed8a/github.png",
-        "alt": "a"
-      },
-      "userIcon": {
-        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/clone-testing/b1756b61-2650-4670-8a03-447bb469251f/link.png"
-      },
-      "primaryLinks": [
-        {
-          "text": "primeiro",
-          "url": "/",
-          "isBold": true
-        }
-      ],
-      "secondaryLinks": [
-        {
-          "text": "segundo",
-          "url": "segundo",
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Accommodation.tsx",
-        "category": []
+        "__resolveType": "site/sections/Category.tsx",
+        "categories": [
+          {
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/clone-testing/493f1175-34bc-48f1-840a-339c7e58555f/89faf9ae-bbbc-4bc4-aecd-cc15bf36cbca.png",
+            "title": "Casas Redondas",
+            "slug": "casas-redondas"
+          },
+          {
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/clone-testing/5fe4a088-e688-4c13-8cef-80fa8b089e17/8e507f16-4943-4be9-b707-59bd38d56309.png",
+            "title": "Ilhas",
+            "slug": "ilhas"
+          },
+          {
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/clone-testing/3a86544d-aa5a-471a-a4ca-0fedccb739ab/4d4a4eba-c7e4-43eb-9ce2-95e1d200d10e.png",
+            "title": "Casas na Árvore",
+            "slug": "casas-na-arvore"
+          }
+        ]
       }
     }
   ],
