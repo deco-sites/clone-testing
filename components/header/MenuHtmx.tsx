@@ -1,4 +1,4 @@
-import { useSection } from "deco/hooks/useSection.ts";
+import { useComponent } from "../../sections/Component.tsx";
 
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
@@ -29,11 +29,12 @@ interface Link {
 // Return HTML
 const MenuHtmx = ({ hamburgerIcon, userIcon, primaryLinks, secondaryLinks, isOpen = false }: Props) => {
     return (
-        <div class="mt-10 bg-[purple] text-white rounded-lg w-[200px] mx-auto p-3">
+        <div class="mt-10 bg-[purple] text-white rounded-lg w-[200px] mx-auto p-3" id="menu-wrapper">
             <h2 class="text-center">HTMX Example</h2>
             <div
-                hx-target="closest section"
-                hx-get={useSection({ props: { isOpen: !isOpen } })}
+                hx-target="#menu-wrapper"
+                hx-swap="outerHTML"
+                hx-get={useComponent( import.meta.url, { hamburgerIcon, userIcon, primaryLinks, secondaryLinks, isOpen: !isOpen })}
             >
                 <Image src={hamburgerIcon.image} width={16} alt={hamburgerIcon.alt} />
                 <Image src={userIcon.image} width={31} alt={userIcon.alt} />

@@ -30,5 +30,26 @@
   "firstByteThresholdMS": true,
   "theme": {
     "__resolveType": "Neutral"
+  },
+  "categories": [
+    {
+      "title": "Casas Redondas",
+      "slug": "/",
+      "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/clone-testing/493f1175-34bc-48f1-840a-339c7e58555f/89faf9ae-bbbc-4bc4-aecd-cc15bf36cbca.png"
+    },
+    {
+      "title": "Ilhas",
+      "slug": "ilha",
+      "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/clone-testing/5fe4a088-e688-4c13-8cef-80fa8b089e17/8e507f16-4943-4be9-b707-59bd38d56309.png"
+    }
+  ],
+  "abTesting": {
+    "replaces": [],
+    "includeScriptsToHead": {
+      "includes": []
+    }
+  },
+  "flavor": {
+    "framework": "fresh"
   }
 }

@@ -1,8 +1,10 @@
 export interface Props {
     name: string;
+    
     /**
+     * @title Dynamic Option Category Loader
      * @format dynamic-options
-     * @options clone-testing/loaders/categories/options.ts
+     * @options site/loaders/categories/options.ts
      */
     category: string;
 }

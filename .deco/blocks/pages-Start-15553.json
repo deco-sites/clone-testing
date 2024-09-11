@@ -112,6 +112,14 @@
           }
         ]
       }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Accommodation.tsx",
+        "name": "Exemplo",
+        "category": "Ilhas"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

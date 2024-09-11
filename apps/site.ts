@@ -1,9 +1,23 @@
 import { App, AppContext as AC } from "deco/mod.ts";
-import website, { Props } from "apps/website/mod.ts";
+import website, { Props as WebSiteProps } from "apps/website/mod.ts";
 
 import manifest, { Manifest } from "../manifest.gen.ts";
+import { ImageWidget } from "apps/admin/widgets.ts";
+
+interface Category {
+  title: string;
+  slug: string;
+  icon: ImageWidget;
+}
+
+interface State {
+  categories: Category[];
+}
+
 
 type WebsiteApp = ReturnType<typeof website>;
+
+export type Props = State & WebSiteProps;
 
 /**
  * @title Site
