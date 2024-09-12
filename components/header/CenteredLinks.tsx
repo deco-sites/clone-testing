@@ -9,7 +9,7 @@ interface Link {
 
 const CenteredLinks = ({ links }: Props) => {
     return (
-        <div>
+        <div class="flex gap-8">
         {
             
             links.map((link) => <div>{link.title}</div>)

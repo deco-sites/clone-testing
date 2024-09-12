@@ -19,12 +19,13 @@ export interface Props {
 // Return HTML
 const Header = ({ centeredLinks, logo, rightButtons }: Props) => {
     return (
-        <div>
-            <Logo {...logo} />
-            <CenteredLinks {...centeredLinks} />
-            <RightButtons {...rightButtons} />
+        <div class="w-[90%] mx-auto relative">
+            <div class="flex justify-between items-center h-[80px]">
+                <Logo {...logo} />
+                <CenteredLinks {...centeredLinks} />
+                <RightButtons {...rightButtons} />
+            </div>
         </div>
-        
     )
 }
 

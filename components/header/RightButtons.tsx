@@ -17,9 +17,9 @@ interface Link {
 
 const RightButtons = ( {links, menuHtmx }: Props) => {
     return (
-        <div>
+        <div class="flex gap-3 items-center">
             { 
-                links.map((link) => <a href={link.url && link.url}>
+                links.map((link) => <a href={link.url && link.url} class="font-bold">
                     {link.title && link.title} 
                     {link.icon && <Image src={link.icon} width={16} /> }
                 </a>)
