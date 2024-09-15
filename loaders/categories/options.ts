@@ -13,33 +13,14 @@ interface Category {
     icon: ImageWidget;
 }
 
-
-/*
-const Loader = ({ categories }: Categories, req: Request, ctx: AppContext): string[] => {
-    Object.entries(allowCorsFor(req)).map(([name, value]) => {
-        ctx.response.headers.set(name, value);
-    });
-
-    let allCategoriesTitle:string[] = [];
-
-    categories.forEach((category) => allCategoriesTitle.push(category.title));
-
-    return allCategoriesTitle;
-}
-*/
-
 const Loader = (_props: unknown, req: Request, ctx: AppContext) => {
     Object.entries(allowCorsFor(req)).map(([name, value]) => {
         ctx.response.headers.set(name, value);
     });
 
-    //let allCategoriesTitle:string[] = [];
-    
-    //ctx.categories.forEach((category) => allCategoriesTitle.push(category.title));
-
     return ctx.categories.map((category) => ({ 
         value: category.title,
-        label: category.title + 'Label',
+        label: category.title,
         image: category.icon
     }));
 }

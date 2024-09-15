@@ -1,5 +1,14 @@
-export interface Props {
+import { ImageWidget } from "apps/admin/widgets.ts";
+import Image from "apps/website/components/Image.tsx";
+
+interface Image {
+    image: ImageWidget,
+    alt?: string,
+}
+
+interface Accommodation {
     name: string;
+    images: Image[];
     
     /**
      * @title Dynamic Option Category Loader
@@ -9,11 +18,25 @@ export interface Props {
     category: string;
 }
 
-const Accommodation = ({ name, category }: Props) => {
+export interface Props {
+    accommodations: Accommodation[];
+}
+
+const Accommodation = ({ accommodations }: Props) => {
     return (
         <div>
-            <h5>{name}</h5>
-            <h6>{category}</h6>
+            {
+                accommodations.map((accommodation) => <div>
+                    {
+                        accommodation.images.map((image)=> <Image src={image.image} width={271} height={257} />)
+                    }
+
+                    <h5>{accommodation.name}</h5>
+                    <h6>{accommodation.category}</h6>
+                </div>
+                )
+            }
+            
         </div>
     );
 }

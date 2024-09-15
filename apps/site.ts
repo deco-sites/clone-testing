@@ -10,8 +10,26 @@ interface Category {
   icon: ImageWidget;
 }
 
+interface Image {
+  image: ImageWidget,
+  alt?: string,
+}
+
+interface Accommodation {
+  name: string;
+  images: Image[];
+  
+  /**
+   * @title Dynamic Option Category Loader
+   * @format dynamic-options
+   * @options site/loaders/categories/options.ts
+   */
+  category: string;
+}
+
 interface State {
   categories: Category[];
+  accommodations: Accommodation[];
 }
 
 
